@@ -93,6 +93,10 @@ nav li:hover ul {
     visibility: visible;
 }
 
+.paginaActual {
+    color:#e5a93b;
+}
+
 main {
     max-width: 100%;
     margin: 40px auto;
