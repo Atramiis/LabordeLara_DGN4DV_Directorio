@@ -1,0 +1,49 @@
+main:has(.contacto) {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contacto {
+    background-color: #171922;
+    border: 1px solid #2a2d3d;
+    border-radius: 4px;
+    padding: 35px 40px;
+    width: 100%;
+    max-width: 620px;
+}
+
+.contacto h1 {
+    font-size: 1.8rem;
+    color: #e2e4ec;
+    margin-bottom: 22px;
+    border-bottom: 2pt solid #2a2d3d;
+}
+
+.listaContacto {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.listaContacto li {
+    color: #b0b4c3;
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+.listaContacto strong {
+    color: #ffffff;
+    font-weight: 600;
+}
+
+.listaContacto a {
+    color: #e5a93b;
+    text-decoration: underline;
+    transition: color 0.2s ease;
+}
+
+.listaContacto a:hover {
+    color: #ffd073;
+}
