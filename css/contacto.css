@@ -47,3 +47,121 @@ main:has(.contacto) {
 .listaContacto a:hover {
     color: #ffd073;
 }
+
+.seccionContacto h1 {
+  font-size: 2.2rem;
+  color: #e5a93b;
+  margin-bottom: 8px;
+}
+
+.contenedorContacto {
+  display: flex;
+  gap: 30px;
+  align-items: flex-start;
+  margin-bottom: 50px;
+}
+
+.formularioContacto {
+  flex: 1.3;
+  background-color: #171922;
+  border: 1px solid #2a2d3d;
+  border-radius: 4px;
+  padding: 30px;
+}
+
+.grupoFormulario {
+  border: none;
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.grupoFormulario legend {
+  font-size: 1.3rem;
+  color: #ffffff;
+  font-weight: bold;
+  border-bottom: 2px solid #2a2d3d;
+  padding-bottom: 8px;
+  width: 100%;
+  margin-bottom: 8px;
+}
+
+.campoForm {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.campoForm label {
+  color: #e2e4ec;
+  font-size: 0.95rem;
+  font-weight: 600;
+}
+
+.campoForm input,
+.campoForm select {
+  width: 100%;
+  padding: 10px 14px;
+  background-color: #0f1015;
+  border: 1px solid #2a2d3d;
+  border-radius: 4px;
+  color: #f0ede6;
+  font-family: inherit;
+  font-size: 0.95rem;
+  outline: none;
+  transition: border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.campoForm input:focus,
+.campoForm select:focus {
+  border-color: #e5a93b;
+  box-shadow: 0 0 6px rgba(229, 169, 59, 0.3);
+}
+
+.campoTerminos {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 4px;
+}
+
+.campoTerminos label {
+  color: #b0b4c3;
+  font-size: 0.85rem;
+  cursor: pointer;
+  line-height: 1.4;
+}
+
+.botonForm {
+  background-color: #e5a93b;
+  color: #111217;
+  font-weight: bold;
+  border: none;
+  padding: 12px 24px;
+  border-radius: 4px;
+  cursor: pointer;
+  align-self: flex-start;
+  margin-top: 8px;
+  transition: background-color 0.2s ease, transform 0.1s ease;
+}
+
+.botonForm:hover {
+  background-color: #ffd073;
+}
+
+/* Tarjeta lateral de soporte/enlaces */
+.infoOficial {
+  flex: 1;
+  background-color: #171922;
+  border: 1px solid #2a2d3d;
+  border-radius: 4px;
+  padding: 30px;
+}
+
+.infoOficial h2 {
+  font-size: 1.3rem;
+  color: #ffffff;
+  margin-bottom: 18px;
+  border-bottom: 2px solid #2a2d3d;
+  padding-bottom: 8px;
+}
