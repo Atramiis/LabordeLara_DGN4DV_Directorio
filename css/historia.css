@@ -1,11 +1,11 @@
 .seccionHistoria h1 {
     font-size: 2.2rem;
-    color: #e5a93b;
+    color: var(--acento-principal);
     margin-bottom: 25px;
 }
 
 .introHistoria {
-    color: #b0b4c3;
+    color: var(--texto-secundario);
     margin-bottom: 35px;
     font-size: 1.05rem;
 }
@@ -33,13 +33,13 @@
 
 .cajaTextoHistoria h2 {
     font-size: 1.1rem;
-    color: #ffffff;
+    color: var(--texto-principal);
     margin-bottom: 6px;
 }
 
 .cajaTextoHistoria p {
     font-size: 1rem;
-    color: #8f94a6;
+    color: var(--texto-apagado);
     line-height: 1.5;
 }
 
@@ -50,13 +50,13 @@
 
 .textoHistoria h2 {
     font-size: 1.1rem;
-    color: #ffffff;
+    color: var(--texto-principal);
     margin-bottom: 6px;
 }
 
 .textoHistoria p {
     font-size: 1rem;
-    color: #8f94a6;
+    color: var(--texto-apagado);
     line-height: 1.5;
 }
 
@@ -69,7 +69,7 @@
     height: 100%;
     object-fit: cover;
     border-radius: 4px;
-    border: 1px solid #2a2d3d;
+    border: 1px solid var(--borde-principal);
     display: block;
 }
 
@@ -81,7 +81,7 @@
 }
 
 .tituloFacciones {
-    color: #e5a93b;
+    color: var(--acento-principal);
     font-size: 1.3rem;
     margin: 25px auto;
 }
@@ -93,8 +93,8 @@
 }
 
 .tarjetaFaccion {
-    background-color: #171922;
-    border: 1px solid #2a2d3d;
+    background-color: var(--bg-tarjeta);
+    border: 1px solid var(--borde-principal);
     border-radius: 4px;
     overflow: hidden;
     display: flex;
@@ -105,7 +105,7 @@
 
 .tarjetaFaccion:hover {
     transform: translateY(-4px);
-    border-color: #e5a93b;
+    border-color: var(--acento-hover);
 }
 
 .imgFaccion {
@@ -124,17 +124,17 @@
 
 .textoFaccion h3 {
     font-size: 1.5rem;
-    color: #ffffff;
+    color: var(--texto-principal);
     margin-bottom: 6px;
     transition: color 0.2s ease;
 }
 
 .tarjetaFaccion:hover h3 {
-    color: #e5a93b;
+    color: var(--acento-principal);
 }
 
 .textoFaccion p {
     font-size: 1rem;
-    color: #b0b4c3;
+    color: var(--texto-secundario);
     line-height: 1.4;
 } 

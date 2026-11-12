@@ -5,12 +5,12 @@
 
 .seccionContacto h1 {
   font-size: 2.2rem;
-  color: #e5a93b;
+  color: var(--acento-principal);
   margin-bottom: 8px;
 }
 
 .seccionContacto p {
-  color: #b0b4c3;
+  color: var(--texto-secundario);
   margin-bottom: 25px;
   font-size: 1rem;
 }
@@ -35,9 +35,9 @@
 
 .grupoFormulario legend {
   font-size: 1.4rem;
-  color: #ffffff;
+  color: var(--texto-principal);
   font-weight: bold;
-  border-bottom: 2px solid #2a2d3d;
+  border-bottom: 2px solid var(--borde-principal);
   padding-bottom: 10px;
   width: 100%;
   margin-bottom: 8px;
@@ -50,7 +50,7 @@
 }
 
 .campoForm label {
-  color: #e2e4ec;
+  color: var(--texto-secundario);
   font-size: 0.95rem;
   font-weight: 600;
 }
@@ -59,10 +59,10 @@
 .campoForm select {
   width: 100%;
   padding: 10px 14px;
-  background-color: #0f1015;
-  border: 1px solid #2a2d3d;
+  background-color: var(--bg-principal);
+  border: 1px solid var(--borde-principal);
   border-radius: 4px;
-  color: #f0ede6;
+  color: var(--texto-principal);
   font-family: inherit;
   font-size: 0.95rem;
   outline: none;
@@ -71,12 +71,12 @@
 
 .campoForm input:focus,
 .campoForm select:focus {
-  border-color: #e5a93b;
+  border-color: var(--acento-principal);
   box-shadow: 0 0 6px rgba(229, 169, 59, 0.3);
 }
 
 .botonForm {
-  background-color: #e5a93b;
+  background-color: var(--acento-principal);
   color: #111217;
   font-weight: bold;
   border: none;
@@ -89,13 +89,13 @@
 }
 
 .botonForm:hover {
-  background-color: #ffd073;
+  background-color: var(--acento-hover);
 }
 
 .contacto {
   width: 100%;
-  background-color: #171922;
-  border: 1px solid #2a2d3d;
+  background-color: var(--bg-tarjeta);
+  border: 1px solid var(--borde-principal);
   border-radius: 4px;
   padding: 35px 40px;
   margin-top: 50px;
@@ -103,9 +103,9 @@
 
 .contacto h2 {
   font-size: 1.5rem;
-  color: #e2e4ec;
+  color: var(--texto-secundario);
   margin-bottom: 20px;
-  border-bottom: 2px solid #2a2d3d;
+  border-bottom: 2px solid var(--borde-principal);
   padding-bottom: 10px;
 }
 
@@ -117,22 +117,22 @@
 }
 
 .listaContacto li {
-  color: #b0b4c3;
+  color: var(--texto-secundario);
   font-size: 1rem;
   line-height: 1.5;
 }
 
 .listaContacto strong {
-  color: #ffffff;
+  color: var(--texto-principal);
   font-weight: 600;
 }
 
 .listaContacto a {
-  color: #e5a93b;
+  color: var(--acento-principal);
   text-decoration: underline;
   transition: color 0.2s ease;
 }
 
 .listaContacto a:hover {
-  color: #ffd073;
+  color: var(--acento-hover);
 }

@@ -1,11 +1,11 @@
 .seccionPersonajes h1, .seccionUbicaciones h1 {
     font-size: 2.2rem;
-    color: #e5a93b;
+    color: var(--acento-principal);
     margin-bottom: 8px;
 }
 
 .introSeccion {
-    color: #b0b4c3;
+    color: var(--texto-secundario);
     margin-bottom: 35px;
     font-size: 1.05rem;
 }
@@ -18,18 +18,18 @@
 }
 
 .tarjetaPersonaje, .tarjetaPlaneta {
-    background-color: #171922;
+    background-color: var(--bg-tarjeta);
     border-radius: 4px;
-    border: 1px solid #2a2d3d;
+    border: 1px solid var(--borde-principal);
     overflow: hidden;
     display: flex;
     flex-direction: column;
-    transition: transform 0.2s ease, border-color 0.2s ease;
+    transition: transform 0.2s ease, 0.2s ease;
 }
 
 .tarjetaPersonaje:hover, .tarjetaPlaneta:hover {
     transform: translateY(-4px);
-    border-color: #e5a93b;
+    border-color: var(--acento-principal);
 }
 
 .tarjetaPersonaje img, .tarjetaPlaneta img {
@@ -66,19 +66,19 @@
 
 .infoTarjeta h2 {
     font-size: 1.3rem;
-    color: #ffffff;
+    color: var(--acento-principal);
     margin-bottom: 4px;
 }
 
 .infoTarjeta .actor {
     font-size: 0.85rem;
-    color: #e5a93b;
+    color: var(--acento-principal);
     font-weight: 600;
     margin-bottom: 10px;
 }
 
 .infoTarjeta .rol {
     font-size: 0.9rem;
-    color: #d1d4e0;
+    color: var(--texto-secundario);
     line-height: 1.5;
 }

@@ -4,6 +4,23 @@
   padding: 0;
 }
 
+:root {
+    --bg-principal: #0f1015;
+    --bg-tarjeta: #171922;
+    --bg-footer: #0b0c10;
+
+    --acento-principal: #e5a93b;
+    --acento-hover: #ffd073;
+
+    --texto-principal: #f0ede6;
+    --texto-secundario: #b0b4c3;
+    --texto-apagado: #8f94a6;
+    --texto-boton: #111217;
+
+    --borde-principal: #2a2d3d;
+    --borde-footer: #222531;
+}
+
 html {
   scrollbar-width: none;       
 }
@@ -14,8 +31,8 @@ body::-webkit-scrollbar {
 
 body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  background-color: #0f1015;
-  color: #f0ede6;
+  background-color: var(--bg-principal);
+  color: var(--texto-principal);
   line-height: 1.6;
   min-height: 100vh;
   display: flex;
@@ -33,8 +50,8 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 15px 40px;
-    background-color: #171922;
-    border-bottom: 2px solid #2a2d3d;
+    background-color: var(--bg-tarjeta);
+    border-bottom: 2px solid var(--borde-principal);
     position: sticky;
     top: 0;
     z-index: 100;
@@ -56,7 +73,7 @@ nav li{
 }
 
 nav a {
-    color: #f0ede6;
+    color: var(--texto-principal);
     text-decoration: none;
     font-weight: 600;
     padding: 8px 12px;
@@ -65,7 +82,7 @@ nav a {
 }
 
 nav a:hover {
-    color: #e5a93b;
+    color: var(--acento-principal);
 }
 
 nav li ul {
@@ -76,8 +93,8 @@ nav li ul {
     flex-direction: column;
     gap: 0;
     width: 170px;
-    background-color: #171922;
-    border: 1px solid #2a2d3d;
+    background-color: var(--bg-tarjeta);
+    border: 1px solid var(--borde-principal);
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
     opacity: 0;
     visibility: hidden;
@@ -90,7 +107,7 @@ nav li:hover ul {
 }
 
 .paginaActual {
-    color:#e5a93b;
+    color: var(--acento-principal);
 }
 
 main {
@@ -103,8 +120,8 @@ main {
 footer {
     text-align: center;
     padding: 25px;
-    background-color: #0b0c10;
-    border-top: 1px solid #222531;
+    background-color: var(--bg-footer);
+    border-top: 1px solid var(--borde-footer);
     font-size: 0.9rem;
-    color: #8f94a6;
+    color: var(--texto-apagado);
 }
