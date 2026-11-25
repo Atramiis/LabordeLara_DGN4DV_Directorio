@@ -1,7 +1,7 @@
 * {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
 :root {
@@ -22,27 +22,32 @@
 }
 
 html {
-  scrollbar-width: none;       
+    scrollbar-width: none;
 }
 
 body::-webkit-scrollbar {
-  display: none;              
+    display: none;
 }
 
 body {
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  background-color: var(--bg-principal);
-  color: var(--texto-principal);
-  line-height: 1.6;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: var(--bg-principal);
+    color: var(--texto-principal);
+    line-height: 1.6;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
 
-h1, h2, h3, h4, h5, h6 {
-  font-family: "Bruno Ace", sans-serif;
-  font-weight: 400;
-  font-style: normal;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Bruno Ace", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
 
 header {
@@ -68,7 +73,7 @@ nav ul {
     gap: 20px;
 }
 
-nav li{
+nav li {
     position: relative;
 }
 
